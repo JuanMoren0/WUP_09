@@ -50,10 +50,8 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-
-
-```
 ### Best Two regressor model
+With the help of the graph above I can say the best   regressor model is Height and Width which can help us   predict the weight of a fish.  
 
 
 ## Pike
