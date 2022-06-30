@@ -104,5 +104,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 
 ### Best Two regressor model
-Looking at the graph I can confidently say that the best two regressor model are Length3 and width.  
+Looking at the graph I can confidently say that the best two regressor model are Length3 and width. 
+
 ## Final Summary Statements
+From looking at all three graphs about the different fishes I can see that to predict a weight of a fish will require different   regressor, since each fish cant be predicted the same, a example being a Perch and a Smelt since both are a diffrent species   that comes in completely diffrent sizes.  
