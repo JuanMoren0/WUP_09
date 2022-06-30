@@ -78,7 +78,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 
 ### Best Two regressor model
-According to the graph the best model for Pike are Length 1-3 with Height and Width seeing as its near the top of the graph.
+According to the graph the best model for Pike are Length 1-3 with Height and Width seeing as its near the top of the graph.  
 
 ## Roach
 ```{r}
@@ -104,5 +104,5 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 
 ### Best Two regressor model
-
+Looking at the graph I can confidently say that the best two regressor model are Length3 and width.  
 ## Final Summary Statements
