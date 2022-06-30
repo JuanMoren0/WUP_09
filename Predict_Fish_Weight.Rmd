@@ -78,8 +78,13 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 
 ### Best Two regressor model
+According to the graph the best model for Pike are Length 1-3 with Height and Width seeing as its near the top of the graph.
 
 ## Roach
+```{r}
+Roach <- filter(fish, Species== "Roach" )
+Roach <- select(Roach, -Species)
+```
 
 ### Best Models
 
